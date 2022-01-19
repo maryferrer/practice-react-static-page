@@ -5,7 +5,7 @@ import Footer from './Footer';
 import MainContent from './MainContent';
 import "./styles.css";
 
-function Page() {
+function App() {
   return (
   <div className="page">
     <Header />,
@@ -15,10 +15,4 @@ function Page() {
   )
 };
 
-ReactDOM.render(<Page />, document.getElementById("root"));
-
-export default Page;
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+ReactDOM.render(<App />, document.getElementById("root"));
